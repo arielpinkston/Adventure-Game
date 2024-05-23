@@ -683,8 +683,8 @@ int main() {
 
     while (word_1 != "QUIT") { // Change "QUIT" to quit the loop
         command.clear();
-        cout << "Availible commands:";
-        cout << "\n  LOOK\n  GET\n  DROP\n  OPEN DOOR\n  CLOSE DOOR\n  INVENTORY\n  To travel, type desired direction (ex: SOUTH)\n";
+        cout << "Available commands:";
+        cout << "\n  LOOK\n  GET\n  DROP\n  INVENTORY\n  OPEN DOOR\n  CLOSE DOOR\n  QUIT\n  Travelable directions: NORTH, SOUTH, EAST, or WEST\n";
         cout << "What shall I do? ";
         getline(cin, command);
 
